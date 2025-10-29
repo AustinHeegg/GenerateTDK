@@ -1,0 +1,63 @@
+{
+    "pgName": "WS",
+    "#board_fold_name_remark": "板卡文件夹名称：pac/pa/sdb/hpb/oeb1/oeb2...，同一个版卡类型可以有多个",
+    "#fold_path_remark": "该板卡的逻辑表单所在路径位置",
+    "#errEntries_file_name_remark": "逻辑故障处理表单文件名称-生成err_entry_cfg.json文件中的errEntries下的内容",
+    "#errEntries_file_sheet_remark": "ָ指定在故障处理表单中提取信息的sheet名称",
+    "#errTableRegs_file_name_remark": "逻辑故障码地址表项文件名称-生成err_entry_cfg.json文件中的errTableRegs下的内容",
+    "#err_entry_cfg_json_file_remark": "生成的err_entry_cfg_json_file文件名称",
+    "#err_related_regs_file_name_remark": "逻辑寄存器表单文件名称-生成err_related_regs.json文件中的RegisterList下的内容",
+    "#err_related_regs_json_file_remark": "生成的err_related_regs.json文件名称",
+    "#DFX_RPT_REG_remark": "功能寄存器所在sheet页",
+    "faultRptCfgMapList": [
+        ["C:\\Users\\h00018885\\Desktop\\Work\\ERR_RPT\\helf_boardcfg\\subsys\\ws\\config\\machine_7gpb\\slot3\\WS_CP_HardwareFaultCfg.json", "SIM_WSEL"],
+        ["C:\\Users\\h00018885\\Desktop\\Work\\ERR_RPT\\helf_boardcfg\\subsys\\ws\\config\\machine_7gpb\\slot3\\WS_CP_HardwareFaultCfg.json", "SIM_WSER"],
+        ["C:\\Users\\h00018885\\Desktop\\Work\\ERR_RPT\\helf_boardcfg\\subsys\\ws\\config\\machine_7gpb\\slot3\\WS_CP_HardwareFaultCfg.json", "SIM_WSEBM"]
+    ],
+    "fltRptCfgPathList": [
+        "C:\\Users\\h00018885\\Desktop\\Work\\ERR_RPT\\helf_boardcfg\\subsys\\ws\\config\\machine_7gpb\\slot3\\WS_CP_HardwareFaultCfg.json"
+    ],
+    "outputDirPath": "../../../..\\product\\subsystems\\msp\\config\\SIM_WSETC\\err_rpt",
+    "helf_input_file": "C:\\Users\\h00018885\\Desktop\\Work\\ERR_RPT\\XX子系统电子电气故障模式交付清单_20250904.xlsx",
+    "subsys_sheet": "WS",
+    "output_dir": "C:\\Users\\h00018885\\Desktop\\Work\\Tools\\ERPT生成TDK",
+    "output_filename": "gen_fault.csv",
+    "paraInfoList": [
+        {
+            "boardId": 0,
+            "board_fold_name": "ws_sdb",
+            "fold_path": "C:\\Users\\h00018885\\Desktop\\Work\\ERR_RPT\\WS\\WS表单\\SDB\\B092",
+            "errEntries_file_name": "XY-HCS V100R001C00 WS子系统SDB+SSB+EPINA+ESC+大功率PAC+EPNIPAC故障处理表单-PI9.xlsx",
+            "errEntries_file_sheet": "WS_SDB",
+            "errTableRegs_file_name": "WS SDB逻辑故障上报轮询地址.xlsx",
+            "err_entry_cfg_json_file": "err_entry_cfg.json",
+            "err_related_regs_file_name": "HiLT XY BOT-WS V100R001C00 子系统SDB逻辑PT008S60寄存器表单(B100).xlsm",
+            "err_related_regs_json_file": "err_related_regs.json",
+            "DFX_RPT_REG": "DFX_RPT_REG"
+        },
+        {
+            "boardId": 1,
+            "board_fold_name": "ws_ssbl",
+            "fold_path": "C:\\Users\\h00018885\\Desktop\\Work\\ERR_RPT\\WS\\WS表单\\SSB\\B092",
+            "errEntries_file_name": "XY-HCS V100R001C00 WS子系统SDB+SSB+EPINA+ESC+大功率PAC+EPNIPAC故障处理表单-PI9.xlsx",
+            "errEntries_file_sheet": "WS_SSB_L",
+            "errTableRegs_file_name": "WS SSB逻辑故障上报轮询地址表.xlsx",
+            "err_entry_cfg_json_file": "err_entry_cfg.json",
+            "err_related_regs_file_name": "XY-HCS WS子系统SSB逻辑PT008S61寄存器表单_PI9.xlsm",
+            "err_related_regs_json_file": "err_related_regs.json",
+            "DFX_RPT_REG": "DFX_RPT_REG"
+        },
+        {
+            "boardId": 2,
+            "board_fold_name": "ws_ssbr",
+            "fold_path": "C:\\Users\\h00018885\\Desktop\\Work\\ERR_RPT\\WS\\WS表单\\SSB\\B092",
+            "errEntries_file_name": "XY-HCS V100R001C00 WS子系统SDB+SSB+EPINA+ESC+大功率PAC+EPNIPAC故障处理表单-PI9.xlsx",
+            "errEntries_file_sheet": "WS_SSB_R",
+            "errTableRegs_file_name": "WS SSB逻辑故障上报轮询地址表.xlsx",
+            "err_entry_cfg_json_file": "err_entry_cfg.json",
+            "err_related_regs_file_name": "XY-HCS WS子系统SSB逻辑PT008S61寄存器表单_PI9.xlsm",
+            "err_related_regs_json_file": "err_related_regs.json",
+            "DFX_RPT_REG": "DFX_RPT_REG"
+        }
+    ]
+}
